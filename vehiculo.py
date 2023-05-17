@@ -19,22 +19,20 @@ class Vehiculo():  # Definicion de la clase.
 
     
     def mostrar(self):
-        print("marca: {} , ruedas: {}, color: {}, tipo de vehiculo: {}".format(self.nombre, self.ruedas, self.color, v1.tipoVehiculo()))
+        print("marca: {}  \nruedas: {} \ncolor: {}".format(self.nombre, self.ruedas, self.color))
 
 #objetos
 v1=Vehiculo("fiat1", 4, "rojo") 
-"""
 v2=Vehiculo("zanelita", 2, "negro" )
-"""
 
 
 print("Vehiculo 1:")
 v1.mostrar()
+print("tipo de vehiculo: ", v1.tipoVehiculo())
 
-"""
-print("Vehiculo 2:")
+print("\nVehiculo 2:")
 v2.mostrar()
-"""
+print("tipo de vehiculo: ", v2.tipoVehiculo())
 
 """
 Comisión: com 6/7
